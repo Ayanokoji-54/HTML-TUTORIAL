@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+
+    <h3>Registration form</h3>
+       <input type="text" placeholder="Name here"><br><br>
+       <input type="password" placeholder="password">
+       <br><br>
+       <h4>Select your class</h4>
+    <label for="101">
+       <input type="radio" class=" Class XI" name="class" id="101">Class XI    <!--Radio button can be selected only 1 time-->
+       <br>
+    </label>
+    <label for="102">
+       <input type="radio" class=" Class XII" name="class" id="102">Class XII
+    </label>
+    <br>
+
+<!-- checkbox   this button provides multiple options to choose -->
+ <h4>Select subject</h4>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject"  id="101">Math
+    </label>
+    <br>
+    <label for="phy">
+        <input type="checkbox" value="physics" name="subject"  id="102">Physics
+    </label>
+    <br>
+    <label for="chem">
+        <input type="checkbox" value="chem" name="subject"  id="103">Chemistry
+    </label>
+    <br>
+    <label for="bio">
+        <input type="checkbox" value="bio" name="subject"  id="104">Biology
+
+    <br><br>
+    Select your city
+    <select name="city">
+        <option value="Delhi"> Delhi</option>
+        <option value="Pune">Pune</option>
+        <option value="kolkata">kolkata</option>
+        <option value="Hydrabad">Hydrabad</option>
+    </select>    
+
+    <br><br>
+    <textarea name="feedback" id="101" placeholder="give valuable feedback">Feedback</textarea>
+    <br><br>
+    <input type="submit" value="submit">
+
+    <!--Iframe ised to show other websites in our homepage-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eKO9BGdQ7Wk?si=9IhGi7Xzdnk7FuNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br>
+
+    <iframe  width="560" height="315" src="https://www.wikipedia.org/"></iframe>
+    <br>
+    <video width="560" height="315" src="/video.mov" controls loop auto></video>
+
+
+    </form>
+</body>
+</html>
